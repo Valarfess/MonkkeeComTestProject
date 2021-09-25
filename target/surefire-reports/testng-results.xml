@@ -2,37 +2,37 @@
 <testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="136316" started-at="2021-09-20T20:16:19 MSK" finished-at="2021-09-20T20:18:35 MSK">
+  <suite name="Surefire suite" duration-ms="43353" started-at="2021-09-25T00:12:27 MSK" finished-at="2021-09-25T00:13:11 MSK">
     <groups>
       <group name="negative">
-        <method signature="LoginPageTest.correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="correctLoginDataShouldBeRequired" class="model.ui.LoginPageTest"/>
+        <method signature="LoginPageTest.correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="correctLoginDataShouldBeRequired" class="model.ui.LoginPageTest"/>
       </group> <!-- negative -->
       <group name="regression">
-        <method signature="LoginPageTest.loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="loginDataShouldBeRequired" class="model.ui.LoginPageTest"/>
+        <method signature="LoginPageTest.loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="loginDataShouldBeRequired" class="model.ui.LoginPageTest"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="LoginPageTest.Login()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="Login" class="model.ui.LoginPageTest"/>
+        <method signature="LoginPageTest.Login()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="Login" class="model.ui.LoginPageTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Surefire test" duration-ms="136316" started-at="2021-09-20T20:16:19 MSK" finished-at="2021-09-20T20:18:35 MSK">
+    <test name="Surefire test" duration-ms="43353" started-at="2021-09-25T00:12:27 MSK" finished-at="2021-09-25T00:13:11 MSK">
       <class name="model.ui.LoginPageTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1324" started-at="2021-09-20T20:17:02 MSK" finished-at="2021-09-20T20:17:03 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1262" started-at="2021-09-25T00:12:49 MSK" finished-at="2021-09-25T00:12:51 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="Login" duration-ms="5510" started-at="2021-09-20T20:17:03 MSK" description="Successful login" finished-at="2021-09-20T20:17:09 MSK">
+        <test-method status="PASS" signature="Login()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="Login" duration-ms="1626" started-at="2021-09-25T00:12:51 MSK" description="Successful login" finished-at="2021-09-25T00:12:52 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="71" started-at="2021-09-20T20:17:09 MSK" finished-at="2021-09-20T20:17:09 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="93" started-at="2021-09-25T00:12:52 MSK" finished-at="2021-09-25T00:12:52 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1192" started-at="2021-09-20T20:17:09 MSK" finished-at="2021-09-20T20:17:10 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1329" started-at="2021-09-25T00:12:52 MSK" finished-at="2021-09-25T00:12:54 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="correctLoginDataShouldBeRequired" duration-ms="7407" started-at="2021-09-20T20:17:10 MSK" data-provider="Wrong Login Data" finished-at="2021-09-20T20:17:17 MSK">
+        <test-method status="PASS" signature="correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="correctLoginDataShouldBeRequired" duration-ms="2451" started-at="2021-09-25T00:12:54 MSK" data-provider="Wrong Login Data" finished-at="2021-09-25T00:12:56 MSK">
           <params>
             <param index="0">
               <value>
@@ -53,15 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLoginDataShouldBeRequired -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="76" started-at="2021-09-20T20:17:17 MSK" finished-at="2021-09-20T20:17:17 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="116" started-at="2021-09-25T00:12:56 MSK" finished-at="2021-09-25T00:12:56 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1239" started-at="2021-09-20T20:17:17 MSK" finished-at="2021-09-20T20:17:19 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1258" started-at="2021-09-25T00:12:56 MSK" finished-at="2021-09-25T00:12:58 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="correctLoginDataShouldBeRequired" duration-ms="22042" started-at="2021-09-20T20:17:19 MSK" data-provider="Wrong Login Data" finished-at="2021-09-20T20:17:41 MSK">
+        <test-method status="PASS" signature="correctLoginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="correctLoginDataShouldBeRequired" duration-ms="2282" started-at="2021-09-25T00:12:58 MSK" data-provider="Wrong Login Data" finished-at="2021-09-25T00:13:00 MSK">
           <params>
             <param index="0">
               <value>
@@ -82,15 +82,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- correctLoginDataShouldBeRequired -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="62" started-at="2021-09-20T20:17:41 MSK" finished-at="2021-09-20T20:17:41 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="66" started-at="2021-09-25T00:13:00 MSK" finished-at="2021-09-25T00:13:00 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1434" started-at="2021-09-20T20:17:41 MSK" finished-at="2021-09-20T20:17:42 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1194" started-at="2021-09-25T00:13:00 MSK" finished-at="2021-09-25T00:13:01 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="loginDataShouldBeRequired" duration-ms="21596" started-at="2021-09-20T20:17:42 MSK" data-provider="Empty Login Data" finished-at="2021-09-20T20:18:04 MSK">
+        <test-method status="PASS" signature="loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="loginDataShouldBeRequired" duration-ms="1756" started-at="2021-09-25T00:13:01 MSK" data-provider="Empty Login Data" finished-at="2021-09-25T00:13:03 MSK">
           <params>
             <param index="0">
               <value>
@@ -111,15 +111,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataShouldBeRequired -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="72" started-at="2021-09-20T20:18:04 MSK" finished-at="2021-09-20T20:18:04 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="68" started-at="2021-09-25T00:13:03 MSK" finished-at="2021-09-25T00:13:03 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1267" started-at="2021-09-20T20:18:04 MSK" finished-at="2021-09-20T20:18:05 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1242" started-at="2021-09-25T00:13:03 MSK" finished-at="2021-09-25T00:13:04 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="loginDataShouldBeRequired" duration-ms="13666" started-at="2021-09-20T20:18:05 MSK" data-provider="Empty Login Data" finished-at="2021-09-20T20:18:19 MSK">
+        <test-method status="PASS" signature="loginDataShouldBeRequired(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="loginDataShouldBeRequired" duration-ms="2194" started-at="2021-09-25T00:13:04 MSK" data-provider="Empty Login Data" finished-at="2021-09-25T00:13:06 MSK">
           <params>
             <param index="0">
               <value>
@@ -140,63 +140,63 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDataShouldBeRequired -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="72" started-at="2021-09-20T20:18:19 MSK" finished-at="2021-09-20T20:18:19 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="102" started-at="2021-09-25T00:13:06 MSK" finished-at="2021-09-25T00:13:06 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="setUP" is-config="true" duration-ms="1273" started-at="2021-09-20T20:18:19 MSK" finished-at="2021-09-20T20:18:20 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="setUP" is-config="true" duration-ms="1276" started-at="2021-09-25T00:13:06 MSK" finished-at="2021-09-25T00:13:08 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="logout()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="logout" duration-ms="15177" started-at="2021-09-20T20:18:20 MSK" finished-at="2021-09-20T20:18:35 MSK">
+        <test-method status="PASS" signature="logout()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="logout" duration-ms="2738" started-at="2021-09-25T00:13:08 MSK" finished-at="2021-09-25T00:13:10 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@1e11bc55]" name="exit" is-config="true" duration-ms="106" started-at="2021-09-20T20:18:35 MSK" finished-at="2021-09-20T20:18:35 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.LoginPageTest@2102a4d5]" name="exit" is-config="true" duration-ms="64" started-at="2021-09-25T00:13:10 MSK" finished-at="2021-09-25T00:13:11 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- model.ui.LoginPageTest -->
       <class name="model.ui.HomePageTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="setUP" is-config="true" duration-ms="4462" started-at="2021-09-20T20:16:29 MSK" finished-at="2021-09-20T20:16:33 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="setUP" is-config="true" duration-ms="6942" started-at="2021-09-25T00:12:35 MSK" finished-at="2021-09-25T00:12:42 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="createNewEntryOnSite()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="createNewEntryOnSite" duration-ms="11537" started-at="2021-09-20T20:16:33 MSK" finished-at="2021-09-20T20:16:45 MSK">
+        <test-method status="PASS" signature="createNewEntryOnSite()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="createNewEntryOnSite" duration-ms="3590" started-at="2021-09-25T00:12:42 MSK" finished-at="2021-09-25T00:12:45 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewEntryOnSite -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="exit" is-config="true" duration-ms="104" started-at="2021-09-20T20:16:45 MSK" finished-at="2021-09-20T20:16:45 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="exit" is-config="true" duration-ms="107" started-at="2021-09-25T00:12:45 MSK" finished-at="2021-09-25T00:12:45 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
-        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="setUP" is-config="true" duration-ms="1459" started-at="2021-09-20T20:16:45 MSK" finished-at="2021-09-20T20:16:46 MSK">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="setUP" is-config="true" duration-ms="1265" started-at="2021-09-25T00:12:45 MSK" finished-at="2021-09-25T00:12:47 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="deleteEntryOnSite()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="deleteEntryOnSite" duration-ms="15543" started-at="2021-09-20T20:16:46 MSK" finished-at="2021-09-20T20:17:02 MSK">
+        <test-method status="PASS" signature="deleteEntryOnSite()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="deleteEntryOnSite" duration-ms="2708" started-at="2021-09-25T00:12:47 MSK" finished-at="2021-09-25T00:12:49 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEntryOnSite -->
-        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.HomePageTest@63fd4873]" name="exit" is-config="true" duration-ms="110" started-at="2021-09-20T20:17:02 MSK" finished-at="2021-09-20T20:17:02 MSK">
+        <test-method status="PASS" signature="exit()[pri:0, instance:model.ui.HomePageTest@425357dd]" name="exit" is-config="true" duration-ms="77" started-at="2021-09-25T00:12:49 MSK" finished-at="2021-09-25T00:12:49 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exit -->
       </class> <!-- model.ui.HomePageTest -->
       <class name="model.api.ApiTest">
-        <test-method status="PASS" signature="deleteTest()[pri:0, instance:model.api.ApiTest@24f43aa3]" name="deleteTest" duration-ms="6722" started-at="2021-09-20T20:16:19 MSK" finished-at="2021-09-20T20:16:26 MSK">
+        <test-method status="PASS" signature="deleteTest()[pri:0, instance:model.api.ApiTest@7dac3fd8]" name="deleteTest" duration-ms="5557" started-at="2021-09-25T00:12:27 MSK" finished-at="2021-09-25T00:12:33 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTest -->
-        <test-method status="PASS" signature="getTest()[pri:0, instance:model.api.ApiTest@24f43aa3]" name="getTest" duration-ms="858" started-at="2021-09-20T20:16:26 MSK" finished-at="2021-09-20T20:16:27 MSK">
+        <test-method status="PASS" signature="getTest()[pri:0, instance:model.api.ApiTest@7dac3fd8]" name="getTest" duration-ms="248" started-at="2021-09-25T00:12:33 MSK" finished-at="2021-09-25T00:12:33 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTest -->
-        <test-method status="PASS" signature="postTest()[pri:0, instance:model.api.ApiTest@24f43aa3]" name="postTest" duration-ms="902" started-at="2021-09-20T20:16:27 MSK" finished-at="2021-09-20T20:16:28 MSK">
+        <test-method status="PASS" signature="postTest()[pri:0, instance:model.api.ApiTest@7dac3fd8]" name="postTest" duration-ms="807" started-at="2021-09-25T00:12:33 MSK" finished-at="2021-09-25T00:12:34 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postTest -->
-        <test-method status="PASS" signature="putTest()[pri:0, instance:model.api.ApiTest@24f43aa3]" name="putTest" duration-ms="591" started-at="2021-09-20T20:16:28 MSK" finished-at="2021-09-20T20:16:29 MSK">
+        <test-method status="PASS" signature="putTest()[pri:0, instance:model.api.ApiTest@7dac3fd8]" name="putTest" duration-ms="532" started-at="2021-09-25T00:12:34 MSK" finished-at="2021-09-25T00:12:35 MSK">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putTest -->
