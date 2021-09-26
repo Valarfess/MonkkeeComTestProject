@@ -3,9 +3,9 @@ package model.api;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
-import static model.api.EndPoints.BASE_URI;
 
-public class ApiTest {
+
+public class ApiTest extends EndPoints {
 
     @Test
     public void getTest() {

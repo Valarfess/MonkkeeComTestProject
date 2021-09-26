@@ -14,7 +14,7 @@ public class BasePage {
     WebDriverWait wait;
 
     @FindBy(xpath = "//button/div[contains(text(),'Cancel')]")
-    protected static WebElement modalCancelBtn;
+    protected static WebElement cancelBtn;
     @FindBy (xpath = "//div[@class='modal-content']")
     protected static WebElement stuckWindow;
 
@@ -24,9 +24,9 @@ public class BasePage {
         wait = new WebDriverWait(driver,7);
     }
 
-    public static void feedBackWindowKill(){
-            WebDriverWait wait = new WebDriverWait(driver,7);
-            wait.until(ExpectedConditions.visibilityOf(modalCancelBtn));
-            modalCancelBtn.click();
-    }
+//    public static void feedBackWindowKill(){
+//            WebDriverWait wait = new WebDriverWait(driver,7);
+//            wait.until(ExpectedConditions.visibilityOf(cancelBtn)).click();
+//            cancelBtn.click();
+//    }
 }

@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 @Log4j2
 public class LoginPage extends BasePage {
 
@@ -15,6 +17,8 @@ public class LoginPage extends BasePage {
     private WebElement passwordField;
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement loginButton;
+    @FindBy(xpath = "//button[@class='user-menu-btn']")
+    private WebElement logoutButton;
     @FindBy(xpath = "//div[contains(text(),'Mandatory field')]")
     private WebElement errorMessage;
     @FindBy(xpath = "//div[contains(text(),'Login failed')]")
@@ -24,8 +28,9 @@ public class LoginPage extends BasePage {
         return loginButton;
     }
 
-    @FindBy(xpath = "//button[@class='user-menu-btn']")
-    private WebElement logOutBtn;
+    public WebElement getLogoutButton() {
+        return logoutButton;
+    }
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -41,10 +46,12 @@ public class LoginPage extends BasePage {
         userNameField.sendKeys(userName);
         passwordField.clear();
         passwordField.sendKeys(password);
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         loginButton.click();
-//        if (stuckWindow.isDisplayed()) {
+//        if (stuckWindow.isDisplayed()==true) {
+//            cancelBtn.click();
 //            feedBackWindowKill();
-//        } else {
+//        } else if (stuckWindow.isDisplayed()==false) {
 //            log.info("All ok! No monkkee-feedback window on this page.");
 //        }
         return new LoginPage(driver);
@@ -59,7 +66,8 @@ public class LoginPage extends BasePage {
     }
 
     public LoginPage logout() {
-        logOutBtn.click();
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        logoutButton.click();
         return new LoginPage(driver);
     }
 }

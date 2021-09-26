@@ -12,21 +12,19 @@ public class HomePageTest extends BaseTest {
     @Test
     public void createNewEntryOnSite() {
         loginPage.openSite("https://my.monkkee.com/#/");
-        loginPage.LogIn(BaseTest.NAME, BaseTest.PASSWORD);
-        driver.manage().timeouts().pageLoadTimeout(7, TimeUnit.SECONDS);
-        homePage.createNewNote("Hello world!");
-        String newEntryText = "Hello world!";
-        Assert.assertEquals(newEntryText,"Hello world!","Success");
+        loginPage.LogIn(NAME, PASSWORD);
+        String note = "Hello world!";
+        homePage.createNewNote(note);
+        Assert.assertEquals(note,note,"Success");
     }
 
     @Step("Delete note on site")
     @Test
     public void deleteEntryOnSite() {
         loginPage.openSite("https://my.monkkee.com/#/");
-        loginPage.LogIn(BaseTest.NAME, BaseTest.PASSWORD);
-//        driver.manage().timeouts().pageLoadTimeout(7, TimeUnit.SECONDS);
+        loginPage.LogIn(NAME, PASSWORD);
         homePage.deleteEntry();
-        Assert.assertTrue(homePage.getCheckBox().isEnabled());
+        Assert.assertTrue(homePage.getCheckBox().isEnabled(), "Delete success");
     }
 }
 

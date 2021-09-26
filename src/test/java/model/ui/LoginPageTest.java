@@ -4,8 +4,7 @@ import io.qameta.allure.Step;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import static org.testng.Assert.*;
 
 public class LoginPageTest extends BaseTest {
     @DataProvider(name = "Empty Login Data")
@@ -44,7 +43,7 @@ public class LoginPageTest extends BaseTest {
     public void Login(){
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
-        assertTrue(loginPage.getLoginButton().isEnabled(), "Login success");
+        assertEquals(loginPage.getLogoutButton().isEnabled(),true,"Login success");
     }
     @Step("Logout")
     @Test
@@ -52,6 +51,6 @@ public class LoginPageTest extends BaseTest {
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
         loginPage.logout();
-        assertTrue(loginPage.getLoginButton().isDisplayed(),"You didn't Logout");
+        assertEquals(loginPage.getLoginButton().isEnabled(),true,"Logout success");
     }
 }

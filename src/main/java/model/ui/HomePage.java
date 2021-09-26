@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 @Log4j2
 public class HomePage extends BasePage {
 
-    @FindBy(id = "//a[@id='create-entry']")
+    @FindBy(xpath = "//a[@title='Create an entry']")
     private WebElement createEntry;
 
     @FindBy(xpath = "//a[@title='Delete selected entries']")
@@ -24,10 +24,10 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//div[@id='editable']")
     private WebElement editable;
 
-    @FindBy(xpath = "//i[@class='icon-home']")
+    @FindBy(xpath = "//a[@title='Back to overview']")
     private WebElement home;
 
-    @FindBy(xpath = "//input[@ng-model='model.checked[entry.id]']")
+    @FindBy(xpath = "//input[@title='Select all']")
     private WebElement checkBox;
 
     public WebElement getCheckBox() {
@@ -40,17 +40,20 @@ public class HomePage extends BasePage {
     }
 
     public String createNewNote(String text) {
-        driver.findElement(By.xpath("//a[@id='create-entry']")).click();
-        driver.findElement(By.xpath("//div[@id='editable']")).click();
-        driver.manage().timeouts().setScriptTimeout(3, TimeUnit.SECONDS);
+        createEntry.click();
+        editable.click();
         editable.sendKeys(text);
+        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
         home.click();
         return text;
     }
 
     public void deleteEntry() {
-        driver.findElement(By.xpath("//input[@ng-model='model.checked[entry.id]']")).click();
-        driver.findElement(By.xpath("//a[@title='Delete selected entries']")).click();
+        checkBox.click();
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+        deleteEntry.click();
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         driver.switchTo().alert().accept();
     }
 }
