@@ -1,11 +1,17 @@
 package model.ui;
 
 import lombok.extern.log4j.Log4j2;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 
+import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 @Log4j2
@@ -46,14 +52,20 @@ public class LoginPage extends BasePage {
         userNameField.sendKeys(userName);
         passwordField.clear();
         passwordField.sendKeys(password);
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         loginButton.click();
-//        if (stuckWindow.isDisplayed()==true) {
-//            cancelBtn.click();
-//            feedBackWindowKill();
-//        } else if (stuckWindow.isDisplayed()==false) {
-//            log.info("All ok! No monkkee-feedback window on this page.");
-//        }
+        if (stuckWindow.size()>0) {
+            feedBackWindowKill();
+            System.out.println("Monkkee-feedback window found and closed!!!");
+            log.info("Monkkee-feedback window found and closed!!!");
+        } else {
+            System.out.println("Monkkee-feedback window not found");
+            log.info("Monkkee-feedback window not found");
+        }
+        try {
+            TimeUnit.SECONDS.sleep(2);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return new LoginPage(driver);
     }
 
@@ -66,8 +78,12 @@ public class LoginPage extends BasePage {
     }
 
     public LoginPage logout() {
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
         logoutButton.click();
         return new LoginPage(driver);
     }
 }
+
+
+//            Wait<WebDriver> wait = new FluentWait<WebDriver>(driver).ignoring(NoSuchElementException.class);
+//            wait.until(ExpectedConditions.elementToBeClickable(cancelBtn)).click();
+//            feedBackWindowKill();

@@ -1,34 +1,39 @@
 package model.ui;
 
 import lombok.extern.log4j.Log4j2;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import java.util.concurrent.TimeUnit;
 
 
 @Log4j2
 public class HomePage extends BasePage {
 
-    @FindBy(xpath = "//a[@title='Create an entry']")
+    @FindBy(xpath = "//i[@class='icon-plus']")
     private WebElement createEntry;
 
     @FindBy(xpath = "//a[@title='Delete selected entries']")
     private WebElement deleteEntry;
 
-    @FindBy(xpath = "//a[@title='Print selected entries']")
-    private WebElement printEntry;
-
-    @FindBy(xpath = "//div[@id='editable']")
+    @FindBy(xpath = "//div[@id='editable' and @contenteditable='true']")
     private WebElement editable;
 
-    @FindBy(xpath = "//a[@title='Back to overview']")
+    @FindBy(xpath = "//i[@class='icon-home']")
     private WebElement home;
 
-    @FindBy(xpath = "//input[@title='Select all']")
+    @FindBy(xpath = "//input[@title='Select all' and @type='checkbox']")
     private WebElement checkBox;
+
+    @FindBy(xpath = "//input[@ng-model='model.checked[entry.id]']")
+    private WebElement checkBoxForAssert;
+
+    public WebElement getCheckBoxForAssert() {
+        return checkBoxForAssert;
+    }
 
     public WebElement getCheckBox() {
         return checkBox;
@@ -39,21 +44,22 @@ public class HomePage extends BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public String createNewNote(String text) {
-        createEntry.click();
-        editable.click();
-        editable.sendKeys(text);
-        driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
-        driver.manage().timeouts().setScriptTimeout(5, TimeUnit.SECONDS);
-        home.click();
+    public String createNote(String text) {
+        wait.until(ExpectedConditions.elementToBeClickable(createEntry)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(editable)).click();
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        wait.until(ExpectedConditions.elementToBeClickable(editable)).sendKeys(text);
+        wait.until(ExpectedConditions.elementToBeClickable(home)).click();
         return text;
     }
 
-    public void deleteEntry() {
-        checkBox.click();
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        deleteEntry.click();
-        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+    public void deleteNote() {
+        wait.until(ExpectedConditions.elementToBeClickable(checkBox)).click();
+        wait.until(ExpectedConditions.elementToBeClickable(deleteEntry)).click();
         driver.switchTo().alert().accept();
     }
 }

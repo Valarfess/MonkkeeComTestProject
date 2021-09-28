@@ -3,7 +3,6 @@ package model.ui;
 import io.qameta.allure.Step;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.util.concurrent.TimeUnit;
 
 
 public class HomePageTest extends BaseTest {
@@ -13,9 +12,8 @@ public class HomePageTest extends BaseTest {
     public void createNewEntryOnSite() {
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
-        String note = "Hello world!";
-        homePage.createNewNote(note);
-        Assert.assertEquals(note,note,"Success");
+        homePage.createNote("Hello world!");
+        Assert.assertTrue(homePage.getCheckBoxForAssert().isEnabled(), "Success");
     }
 
     @Step("Delete note on site")
@@ -23,7 +21,7 @@ public class HomePageTest extends BaseTest {
     public void deleteEntryOnSite() {
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
-        homePage.deleteEntry();
+        homePage.deleteNote();
         Assert.assertTrue(homePage.getCheckBox().isEnabled(), "Delete success");
     }
 }

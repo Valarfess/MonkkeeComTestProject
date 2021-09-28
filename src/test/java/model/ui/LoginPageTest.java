@@ -4,6 +4,8 @@ import io.qameta.allure.Step;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.concurrent.TimeUnit;
+
 import static org.testng.Assert.*;
 
 public class LoginPageTest extends BaseTest {
@@ -43,7 +45,7 @@ public class LoginPageTest extends BaseTest {
     public void Login(){
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
-        assertEquals(loginPage.getLogoutButton().isEnabled(),true,"Login success");
+        assertEquals(loginPage.getLogoutButton().isDisplayed(),true,"Login success");
     }
     @Step("Logout")
     @Test

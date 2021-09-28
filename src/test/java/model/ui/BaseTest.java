@@ -33,9 +33,9 @@ public abstract class BaseTest {
         homePage = new HomePage(driver);
     }
 
-//    @AfterMethod
-//    public void exit(){
-//        driver.close();
-//    }
+    @AfterMethod
+    public void exit(){
+        driver.close();
+    }
 }
 
