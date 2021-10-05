@@ -1,4 +1,4 @@
-package model.ui;
+package ui;
 
 import io.qameta.allure.Step;
 import org.testng.Assert;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="126.181" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="126.497" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Fess\AppData\Local\Temp\surefire4520921684322001541\surefirebooter7566814568352357912.jar C:\Users\Fess\AppData\Local\Temp\surefire4520921684322001541 2021-10-05T15-18-51_864-jvmRun1 surefire4094796112587988503tmp surefire_051582387346287269tmp"/>
+    <property name="sun.java.command" value="C:\Users\Fess\AppData\Local\Temp\surefire6075047273823295276\surefirebooter2694403075653461354.jar C:\Users\Fess\AppData\Local\Temp\surefire6075047273823295276 2021-10-05T15-31-08_239-jvmRun1 surefire8804464715649798974tmp surefire_03086190016497341314tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\Fess\IdeaProjects\MonkkeeComTestProject\target\test-classes;C:\Users\Fess\IdeaProjects\MonkkeeComTestProject\target\classes;C:\Users\Fess\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Fess\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Fess\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Fess\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Fess\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Fess\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Fess\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Fess\.m2\repository\io\qameta\allure\allure-testng\2.15.0\allure-testng-2.15.0.jar;C:\Users\Fess\.m2\repository\io\qameta\allure\allure-java-commons\2.15.0\allure-java-commons-2.15.0.jar;C:\Users\Fess\.m2\repository\io\qameta\allure\allure-model\2.15.0\allure-model-2.15.0.jar;C:\Users\Fess\.m2\repository\io\qameta\allure\allure-test-filter\2.15.0\allure-test-filter-2.15.0.jar;C:\Users\Fess\.m2\repository\org\json\json\20210307\json-20210307.jar;C:\Users\Fess\.m2\repository\io\github\bonigarcia\webdrivermanager\4.3.1\webdrivermanager-4.3.1.jar;C:\Users\Fess\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\Fess\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\Fess\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Fess\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\Fess\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\Fess\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Fess\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Fess\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Fess\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Fess\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Fess\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Fess\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Fess\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Fess\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Fess\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Fess\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Fess\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Fess\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\Fess\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.0\log4j-core-2.14.0.jar;C:\Users\Fess\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.0\log4j-api-2.14.0.jar;C:\Users\Fess\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Fess\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Fess\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Fess\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Fess\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Fess\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Fess\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Fess\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Fess\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Fess\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Fess\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Fess\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Fess\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Fess\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Fess"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Fess\AppData\Local\Temp\surefire4520921684322001541\surefirebooter7566814568352357912.jar;C:\Users\Fess\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Fess\AppData\Local\Temp\surefire6075047273823295276\surefirebooter2694403075653461354.jar;C:\Users\Fess\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_301\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_301\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_301\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,16 +61,16 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="deleteTest" classname="model.api.ApiTest" time="7.475">
+  <testcase name="deleteTest" classname="api.ApiTest" time="6.594">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 05 Oct 2021 12:19:03 GMT
+Date: Tue, 05 Oct 2021 12:31:20 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 999
-x-ratelimit-reset: 1633436403
+x-ratelimit-reset: 1633437123
 vary: Origin, Accept-Encoding
 access-control-allow-credentials: true
 cache-control: no-cache
@@ -80,10 +80,10 @@ x-content-type-options: nosniff
 etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p6YGD8OW3rGT6WmQOBIQgjiDF1FU6fIgx44EioWiZ8%2B9IwW7XtiP3qHKXt7zm4fA07e%2Bj4uRZe%2B3nNpaD%2BwOKhNFqwaCHTSKCwbbPY1BXpnXKI99pDSomepHzyUCKBLaVI8Jcq9m8Mr32tD1Fs6X"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=aW4lW9IXyCJzIzliyNgDAMp10IPEhyGh05vGayaOHI4tFBuA9pBcFCa67TWGaNF%2Byu1hb%2BPnejR%2FXuJFLvJ6KGXuKKDmkNhuBvnZMoA4NPMAU%2BAd2TAZ7tXr1hXdVGhSBQ1dbuAfMH69mxm2WnP0"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 6996989b6d480d3a-ARN
+CF-RAY: 6996aa97bfcbf13e-ARN
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -95,9 +95,9 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="getTest" classname="model.api.ApiTest" time="2.883">
+  <testcase name="getTest" classname="api.ApiTest" time="2.614">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 05 Oct 2021 12:19:04 GMT
+Date: Tue, 05 Oct 2021 12:31:21 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -115,11 +115,11 @@ etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
 content-encoding: gzip
 via: 1.1 vegur
 CF-Cache-Status: HIT
-Age: 12519
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=vPp1PtsNZ5ivxNNNuMMVPuwmA0quZU1Ks5aMFriLFR%2BPC5vVrRyJnqi8IyGRnsxnI2CtHMTBlEoCmr2RrzsgRr4Jyq5k54gyOALyB0hPlNMjiiFG2i62aSm4Vgo0EI3Y6ayw6rTKy7ZJ5ORflwpg"}],"group":"cf-nel","max_age":604800}
+Age: 13256
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=p6ct0qHIlExiYPVoCj%2FMDVLkQPh1LHxhzfgreTcGUCVm%2F%2FkSbdY4AbVbqg0T%2BpiCE1OxIgufh87ZvE%2FMb39g%2B6wZJrizMxO5%2BWnERp9IcqVafUV7jxgTMviGdHa5zGyT%2B8G33qJph5ga4qQ5jXZ2"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 699698a42eb74ec1-FRA
+CF-RAY: 6996aa9e7c82dfa9-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 [
@@ -726,16 +726,16 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 ]
 ]]></system-out>
   </testcase>
-  <testcase name="postTest" classname="model.api.ApiTest" time="0.078">
+  <testcase name="postTest" classname="api.ApiTest" time="0.082">
     <system-out><![CDATA[HTTP/1.1 201 Created
-Date: Tue, 05 Oct 2021 12:19:05 GMT
+Date: Tue, 05 Oct 2021 12:31:22 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 15
 Connection: keep-alive
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 998
-x-ratelimit-reset: 1633436403
+x-ratelimit-reset: 1633437123
 vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 access-control-allow-credentials: true
 cache-control: no-cache
@@ -747,10 +747,10 @@ x-content-type-options: nosniff
 etag: W/"f-4jjw4Y8q22Yv1PV9m28FczJgjzk"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PyCidnaqZwfJlUWztPDp%2BnkuD4YalSgPculeuK%2FN%2B6PWQG3DvQTNMEOeAH85Fs7yn%2FHPgE8SIsj2vdwicteU32JTiewKunNeaESygj%2Fe%2BBS11TZIGwkDfU8B6XIzcD3k63cxnGi6FWtv2g44idzY"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gSLTGt3sXKRggdtsK7RE2jDqjUbQJyJG%2FXueNQWy7wGBXAJBC%2B1MLPm%2FGmcJ8pIpWGnyEJTdQX3cfxNMbbY7SXR4dy8Jr1wKSr9VtDOuliFXCE140HLR7875TwnlNwoNUf%2BnNx8R0EyY8wU4vG3i"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 699698a8cb725cb0-FRA
+CF-RAY: 6996aaa39917c2e5-FRA
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -758,16 +758,16 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="putTest" classname="model.api.ApiTest" time="0.062">
+  <testcase name="putTest" classname="api.ApiTest" time="0.088">
     <system-out><![CDATA[HTTP/1.1 200 OK
-Date: Tue, 05 Oct 2021 12:19:06 GMT
+Date: Tue, 05 Oct 2021 12:31:22 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 13
 Connection: keep-alive
 x-powered-by: Express
 x-ratelimit-limit: 1000
 x-ratelimit-remaining: 997
-x-ratelimit-reset: 1633436403
+x-ratelimit-reset: 1633437123
 vary: Origin, Accept-Encoding
 access-control-allow-credentials: true
 cache-control: no-cache
@@ -777,10 +777,10 @@ x-content-type-options: nosniff
 etag: W/"d-p13Thq1mbIznE8TsFv4BmW8SRpg"
 via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YN3XVgNfmdHvHm6TDh0KefAgZc7uieSX5RM2ViSVUMdGGToQ64tdgyOl%2Bma7U1B9tBEG%2BswPI7UI%2F%2BZqgtqkH8ap2buzzWCCyhaAOinZznHRFO2pL59HrwV5mtuXdWqvMDgZF4NcnDd4rC4HCp3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WcDPPOconmWnkf33uiPkambLER%2BDM2oX8oxVTiyVOfnBOmEXOaGAo%2B7DUAmnOHxlX6HZrJZVV2nub7f3PzBoMM9GCGkX%2BU1CxkEcjuxKoygJ6HDP69XNMHcnY24C%2Bueq%2FEpUrhcyxa1Lbrk2JTvi"}],"group":"cf-nel","max_age":604800}
 NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 699698ab6abdf14a-ARN
+CF-RAY: 6996aaa65f0a10c5-CPH
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
@@ -788,91 +788,91 @@ alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3
 }
 ]]></system-out>
   </testcase>
-  <testcase name="createNewEntryOnSite" classname="model.ui.HomePageTest" time="14.332">
+  <testcase name="createNewEntryOnSite" classname="ui.HomePageTest" time="13.236">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 40590
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 38028
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:19:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:31:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="deleteEntryOnSite" classname="model.ui.HomePageTest" time="9.322">
+  <testcase name="deleteEntryOnSite" classname="ui.HomePageTest" time="9.285">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 48803
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 36591
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:19:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:31:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="Login" classname="model.ui.LoginPageTest" time="9.967">
-    <system-out><![CDATA[Monkkee-feedback window found and closed!!!
+  <testcase name="Login" classname="ui.LoginPageTest" time="9.052">
+    <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 5824
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 11069
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:19:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:31:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="correctLoginDataShouldBeRequired[valarfess@gmail.com, wrong_password, Login failed](1)" classname="model.ui.LoginPageTest" time="8.915">
+  <testcase name="correctLoginDataShouldBeRequired[valarfess@gmail.com, wrong_password, Login failed](1)" classname="ui.LoginPageTest" time="9.281">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 21919
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 38650
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:19:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:32:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="correctLoginDataShouldBeRequired[wrong_user, Valar211922, Login failed](2)" classname="model.ui.LoginPageTest" time="8.897">
+  <testcase name="correctLoginDataShouldBeRequired[wrong_user, Valar211922, Login failed](2)" classname="ui.LoginPageTest" time="8.927">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 25195
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 17456
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:20:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:32:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginDataShouldBeRequired[, Valar211922, Mandatory field](1)" classname="model.ui.LoginPageTest" time="8.941">
+  <testcase name="loginDataShouldBeRequired[, Valar211922, Mandatory field](1)" classname="ui.LoginPageTest" time="9.055">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 27464
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 8288
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:20:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:32:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="loginDataShouldBeRequired[valarfess@gmail.com, , Mandatory field](2)" classname="model.ui.LoginPageTest" time="9.037">
+  <testcase name="loginDataShouldBeRequired[valarfess@gmail.com, , Mandatory field](2)" classname="ui.LoginPageTest" time="9.412">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 36647
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 28151
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:20:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:32:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="logout" classname="model.ui.LoginPageTest" time="10.518">
+  <testcase name="logout" classname="ui.LoginPageTest" time="9.68">
     <system-out><![CDATA[Monkkee-feedback window not found
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 40851
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 13304
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-окт 05, 2021 3:20:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+окт 05, 2021 3:33:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

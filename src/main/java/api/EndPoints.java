@@ -1,4 +1,4 @@
-package model.api;
+package api;
 
 public class EndPoints {
 

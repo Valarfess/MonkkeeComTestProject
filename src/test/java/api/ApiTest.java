@@ -1,5 +1,7 @@
-package model.api;
+package api;
 
+import api.EndPoints;
+import api.User;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
