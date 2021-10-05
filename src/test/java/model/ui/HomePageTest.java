@@ -22,7 +22,7 @@ public class HomePageTest extends BaseTest {
         loginPage.openSite("https://my.monkkee.com/#/");
         loginPage.LogIn(NAME, PASSWORD);
         homePage.deleteNote();
-        Assert.assertTrue(homePage.getCheckBox().isEnabled(), "Delete success");
+        Assert.assertTrue(homePage.getCheckBoxForAssert().isDisplayed(), "Delete success");
     }
 }
 

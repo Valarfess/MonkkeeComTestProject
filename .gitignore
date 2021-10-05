@@ -13,6 +13,11 @@ hs_err_pid*
 ## Maven
 ##############################
 target/
+.idea/
+.allure/
+.circleci/
+.gradle/
+/allure-results/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
