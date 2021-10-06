@@ -1,10 +1,8 @@
-package model.ui;
+package ui;
 
 import io.qameta.allure.Step;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
-import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.*;
 

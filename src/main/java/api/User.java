@@ -1,4 +1,4 @@
-package model.api;
+package api;
 
 import lombok.Builder;
 import lombok.Data;
@@ -11,6 +11,7 @@ public class User {
     private String name;
     private int salary;
     private int age;
+    private String title;
 
     @Override
     public String toString() {
