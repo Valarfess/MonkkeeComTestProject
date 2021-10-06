@@ -12,7 +12,7 @@ public class ApiTest extends EndPoints {
         User user = User.builder()
                 .id(101)
                 .age(26)
-                .name("Pupkin")
+                .name("Vasia")
                 .title("test user")
                 .build();
 
