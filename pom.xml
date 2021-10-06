@@ -44,7 +44,7 @@
                 <version>2.10.0</version>
                 <configuration>
                     <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
-                    <reportDirectory>${basedir}/target/allure-report</reportDirectory>
+                    <reportDirectory>${project.build.directory}/allure-report</reportDirectory>
                     <reportVersion>2.14.0</reportVersion>
                 </configuration>
             </plugin>

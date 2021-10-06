@@ -1,4 +1,4 @@
-model\ui\HomePageTest.class
-model\api\ApiTest.class
-model\ui\LoginPageTest.class
-model\ui\BaseTest.class
+ui\LoginPageTest.class
+ui\HomePageTest.class
+ui\BaseTest.class
+api\ApiTest.class
